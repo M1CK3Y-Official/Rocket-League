@@ -30,6 +30,7 @@ header {
 nav {
     height: 10vh;
     backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
     background-color: #ffffff25;
     box-shadow: 0 0 25px #00000075;
     border-bottom: 5px solid #ffffff25;
@@ -108,6 +109,7 @@ nav {
 
 .blur {
     backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
     height: 100vh;
     width: 100vw;
     position: relative;
